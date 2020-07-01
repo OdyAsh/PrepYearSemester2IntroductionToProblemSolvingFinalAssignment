@@ -1,0 +1,5 @@
+﻿  FinalAssignmentCode.cpp
+D:\Individual Projects\Programming\FinalAssignmentCode\FinalAssignmentCode\FinalAssignmentCode.cpp(54,28): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Individual Projects\Programming\FinalAssignmentCode\FinalAssignmentCode\FinalAssignmentCode.cpp(99,32): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Individual Projects\Programming\FinalAssignmentCode\FinalAssignmentCode\FinalAssignmentCode.cpp(199): warning C4715: 'getStudent': not all control paths return a value
+  FinalAssignmentCode.vcxproj -> D:\Individual Projects\Programming\FinalAssignmentCode\FinalAssignmentCode\Debug\FinalAssignmentCode.exe
