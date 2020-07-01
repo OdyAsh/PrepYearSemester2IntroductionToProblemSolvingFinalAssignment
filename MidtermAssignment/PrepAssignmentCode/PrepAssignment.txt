@@ -1,0 +1,29 @@
+******************************students records******************************
+
+Student 1
+Name: Ashraf Adel
+ID: 196280
+Gender: Male
+Major: cs
+Grade: 90 80 70 60 50
+Average grade -> 70
+Year: Prep
+
+Student 2
+Name: Steve Gates
+ID: 193285
+Gender: Male
+Major: cs
+Grade: 60 50 40 20 30
+Average grade -> 40
+Year: Prep
+
+Student 3
+Name: Mostafa Salaman Khan
+ID: 193345
+Gender: Male
+Major: cs
+Grade: 100 100 100 100 100
+Average grade -> 100
+Year: Year 3
+
