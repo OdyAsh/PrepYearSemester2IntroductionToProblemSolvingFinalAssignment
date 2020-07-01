@@ -1,0 +1,47 @@
+IMP ### If you want to update content of file from another function, do this:
+
+void updateFile(fstream &fs)
+{
+	fs.open("tests.txt", ios::out);
+	fs << "NEW TEXTs\n";
+	fs.close(); //This is important to do after modifying text
+}
+int main()
+{
+	fstream fs("tests.txt", ios::trunc); //Empty file
+	updateFile(fs);
+}
+
+###when using file object beforehand:
+void updateFile(fstream &fs)
+{
+	fs.open("tests.txt", ios::out);
+	fs << "text from another function\n";
+	fs.close();
+}
+int main()
+{
+	fstream fs("tests.txt", ios::in || ios::out);
+	//Code to do first
+	fs.close(); //IMP
+	fs.open("tests.txt", ios::trunc);
+	updateFile(fs);
+}
+
+When using switch:
+switch(y)
+{
+ case 1:
+	int x;
+	//rest of code     WRONG
+}
+
+int x; //and any other variable to be used in switch
+switch(y)
+{
+ case 1:
+	x = 5;  Correct!
+}
+
+
+
